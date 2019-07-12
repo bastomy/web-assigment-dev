@@ -32,7 +32,9 @@
           <div class="nav_menu">
             <nav>
               <div class="nav toggle">
-                <img src="./asset/images/cropped-logo-6.jpg" style="width: 128.82px;height: 32px; margin-left: 32px;">
+                <a href="./index.php">
+                  <img src="./asset/images/cropped-logo-6.jpg" style="width: 128.82px;height: 32px; margin-left: 32px;">
+                </a>
                 <div style="font-family: 'Open Sans';font-size: 11px; display: inline-block; margin-left: 15px; vertical-align: bottom;">
                   powered by  <img src="./asset/images/cropped-logo-6.jpg" style="width: 72.46px; height: 18px;">
                 </div>
@@ -66,7 +68,7 @@
               <a id="menu_toggle"><i class="fa fa-bars"></i></a>
             </div>
             <div class="navbar nav_title" style="border: 0; background-color: #D2D2D2;">
-              <a href="{{ route('dashboard" class="site_title"><img src="./asset/images/Dashboard icon.svg" style="height: 16.93px; padding-left: 12px;"> <span>Advotics</span></a>
+              <a href="./index.php" class="site_title"><img src="./asset/images/Dashboard icon.svg" style="height: 16.93px; padding-left: 12px;"> <span>Advotics</span></a>
             </div>
           </div>
         </div>
