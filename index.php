@@ -297,12 +297,14 @@
         var start = moment().subtract(29, 'days');
         var end = moment();
         var max = moment().subtract(1, 'days');
+        var min = moment().subtract(6, 'months');
         function cb(start, end) {
             $('#reportrange span').html(start.format('DD MMMM YYYY') + ' - ' + end.format('DD MMMM YYYY'));
         }
     
         $('#reportrange').daterangepicker({
             maxDate: max,
+            minDate:min,
             startDate: start,
             endDate: end,
             ranges: {
